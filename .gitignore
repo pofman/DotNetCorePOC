@@ -235,3 +235,6 @@ _Pvt_Extensions
 
 # visual studio code config
 .vscode/
+
+# MAC OS
+.DS_Store

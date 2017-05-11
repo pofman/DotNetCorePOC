@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 15.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePOC.ConsoleApp", "DotNetCorePOC.ConsoleApp.csproj", "{6DCDD141-9D5D-4B2E-AC6B-026287EDD09A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DCDD141-9D5D-4B2E-AC6B-026287EDD09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCDD141-9D5D-4B2E-AC6B-026287EDD09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCDD141-9D5D-4B2E-AC6B-026287EDD09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCDD141-9D5D-4B2E-AC6B-026287EDD09A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
