@@ -238,3 +238,7 @@ _Pvt_Extensions
 
 # MAC OS
 .DS_Store
+
+#Type Script typings
+typings/
+

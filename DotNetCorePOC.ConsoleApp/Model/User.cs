@@ -26,7 +26,7 @@ namespace DotNetCorePOC.ConsoleApp.Model
 
         public override bool Equals (object obj)
         {
-            return Name.Equals(((User)obj).Name);
+            return Name.Equals(((BaseUser)obj).Name);
         }
     }
 
