@@ -4,6 +4,8 @@ COPY . /app
 
 WORKDIR /app
 
+ENV ASPNETCORE_ENVIRONMENT "Development"
+
 RUN ["dotnet", "restore"]
 
 RUN ["dotnet", "build"]
