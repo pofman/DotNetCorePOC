@@ -1,14 +1,23 @@
 FROM microsoft/dotnet:latest
 
-COPY . /app
+RUN curl -sL https://deb.nodesource.com/setup_7.x | bash -
+RUN apt-get update && apt-get install build-essential nodejs -y
 
 WORKDIR /app
 
+COPY DotNetCorePOC.Web.csproj /app
+
+RUN ["dotnet", "restore", "DotNetCorePOC.Web.csproj"]
+
+COPY package.json /app
+
+RUN ["npm", "install"]
+
+COPY . /app
 ENV ASPNETCORE_ENVIRONMENT "Development"
 
-RUN ["dotnet", "restore"]
-
 RUN ["dotnet", "build"]
+RUN ["node_modules/.bin/gulp", "bundle"]
 
 EXPOSE 5000/tcp
 

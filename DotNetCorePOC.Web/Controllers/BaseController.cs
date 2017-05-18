@@ -7,4 +7,9 @@ namespace DotNetCorePOC.Web.Controllers
     {
 
     }
+
+    public abstract class BaseAPIController : Controller
+    {
+
+    }
 }
