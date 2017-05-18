@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePOC.ConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePOC.Web", "DotNetCorePOC.Web\DotNetCorePOC.Web.csproj", "{E2011CB7-91ED-4A85-85E3-FD89306DE117}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePOC.Domain", "DotNetCorePOC.Domain\DotNetCorePOC.Domain.csproj", "{C8DA4F23-0E71-4CA3-A8F4-73588EF77F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePOC.Support", "DotNetCorePOC.Support\DotNetCorePOC.Support.csproj", "{ED473DB6-87F7-4D37-981D-92CC98209B52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,13 @@ Global
 		{E2011CB7-91ED-4A85-85E3-FD89306DE117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2011CB7-91ED-4A85-85E3-FD89306DE117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2011CB7-91ED-4A85-85E3-FD89306DE117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DA4F23-0E71-4CA3-A8F4-73588EF77F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DA4F23-0E71-4CA3-A8F4-73588EF77F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DA4F23-0E71-4CA3-A8F4-73588EF77F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DA4F23-0E71-4CA3-A8F4-73588EF77F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED473DB6-87F7-4D37-981D-92CC98209B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED473DB6-87F7-4D37-981D-92CC98209B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED473DB6-87F7-4D37-981D-92CC98209B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED473DB6-87F7-4D37-981D-92CC98209B52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

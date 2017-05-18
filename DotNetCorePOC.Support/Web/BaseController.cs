@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 
-namespace DotNetCorePOC.Web.Controllers
+namespace DotNetCorePOC.Support.Web
 {
     public abstract class BaseController : Controller
     {

@@ -32,4 +32,7 @@
   <ItemGroup>
     <Folder Include="scripts\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCorePOC.Support\DotNetCorePOC.Support.csproj" />
+  </ItemGroup>
 </Project>
