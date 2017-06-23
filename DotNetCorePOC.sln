@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePOC.Domain", "Dot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePOC.Support", "DotNetCorePOC.Support\DotNetCorePOC.Support.csproj", "{ED473DB6-87F7-4D37-981D-92CC98209B52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCorePOC.Domain.Tests", "DotNetCorePOC.Domain.Tests\DotNetCorePOC.Domain.Tests.csproj", "{4E64D3B9-B7B2-43A8-8402-5DD31DD81254}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{ED473DB6-87F7-4D37-981D-92CC98209B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED473DB6-87F7-4D37-981D-92CC98209B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED473DB6-87F7-4D37-981D-92CC98209B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E64D3B9-B7B2-43A8-8402-5DD31DD81254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E64D3B9-B7B2-43A8-8402-5DD31DD81254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E64D3B9-B7B2-43A8-8402-5DD31DD81254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E64D3B9-B7B2-43A8-8402-5DD31DD81254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

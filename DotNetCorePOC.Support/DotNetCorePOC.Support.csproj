@@ -1,16 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <Folder Include="Web\" />
-    <Folder Include="IoC\" />
-    <Folder Include="Domain\" />
+    <Folder Include="Web\"/>
+    <Folder Include="IoC\"/>
+    <Folder Include="Domain\"/>
+    <Folder Include="Tests\"/>
+    <Folder Include="Storage\"/>
+    <Folder Include="Configuration\"/>
+    <Folder Include="Extensions\"/>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2"/>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.1"/>
+    <PackageReference Include="Autofac" Version="4.6.0"/>
+    <PackageReference Include="log4net" Version="*"/>
   </ItemGroup>
 </Project>

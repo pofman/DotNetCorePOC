@@ -7,4 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DotNetCorePOC.Support\DotNetCorePOC.Support.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Maps\" />
+  </ItemGroup>
 </Project>
